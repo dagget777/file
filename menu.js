@@ -6,7 +6,7 @@ $(document).ready(function () {
         scrollTop: $(target).offset().top = offset//вычесть высоту меню
     }, 500);//
     $('.nav a[href^="#"]').removeClass('active');//удалить класс active у всех пунктов меню
-    $(this).addClass('active');//добавить класс active активной ссылке
+    $(this).addClass('active');//добавить класс active активной ссылке test
     return false;
 });
 });
